@@ -371,6 +371,7 @@ ul {
     margin: 9%;
     background-color: rgba(48, 48, 48, 0.5);
     backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
     z-index: 3;
 }
 
