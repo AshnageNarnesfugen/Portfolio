@@ -2,7 +2,6 @@ $(document).ready(function() {
     $(window).scroll(function() {
         parallax();
     });
-    document.body.requestFullscreen();
     function parallax() {
         var wScroll = $(window).scrollTop();
         $('#number1').css({
