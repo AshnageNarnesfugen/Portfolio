@@ -20,10 +20,10 @@
     --bg-primary: #23232e;
     --bg-secondary: #141418;
     --transition-speed: 600ms;
-    --url_1: url(https://www.itl.cat/pngfile/big/12-120644_mac-osx-captain-original-mac-os-el-capitan.jpg);
-    --url_2: url(https://wallpapershome.com/images/pages/ico_h/21619.jpg);
-    --url_3: url(https://i.pinimg.com/originals/b7/88/c4/b788c493a4566674949e908ddf091fda.jpg);
-    --url_4: url(https://img.wallpapersafari.com/desktop/1920/1080/36/56/dFyWfT.jpg);
+    --url_1: url(https://picsum.photos/1000/400?random=1);
+    --url_2: url(https://picsum.photos/1000/400?random=2);
+    --url_3: url(https://picsum.photos/1000/400?random=3);
+    --url_4: url(https://picsum.photos/1000/400?random=4);
 }
 
 body {
