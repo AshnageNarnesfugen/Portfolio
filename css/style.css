@@ -249,6 +249,7 @@ ul {
     overflow: hidden;
     background-color: var(--bg-primary);
     padding: 1%;
+    height: 100%;
 }
 
 
@@ -280,7 +281,6 @@ ul {
 
 .background {
     width: 100%;
-    height: 100%;
     flex-direction: row;
     align-items: center;
     background-size: cover;
@@ -295,6 +295,7 @@ ul {
     /*cursor: url('img/navegacion.svg'), auto !important;*/
     display: flex;
     background-repeat: no-repeat;
+    height: 95vh;
 }
 
 #number1:after {
@@ -313,6 +314,7 @@ ul {
     background: linear-gradient(322deg, rgba(17, 17, 66, 1) 0%, rgba(99, 60, 111, 1) 100%);
     margin-top: 20px;
     display: flex;
+    height: 95%;
 }
 
 #number3 {
@@ -323,6 +325,7 @@ ul {
     background-size: cover;
     background-repeat: repeat-y;
     overflow: hidden;
+    height: 100%;
 }
 
 .site-link {
