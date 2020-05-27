@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
 * {
-    scroll-behavior: smooth;
+    /*scroll-behavior: smooth;*/
     font-family: 'Raleway', sans-serif !important;
 }
 
@@ -861,4 +861,13 @@ input:checked+label+.ci~.ci {
 
 input:not(:checked)+label+.ci {
     transition: 0;
+}
+
+.activo {
+    filter: grayscale(0%) opacity(1);
+    background: var(--bg-secondary);
+}
+
+.activo>a {
+    color: white !important;
 }
