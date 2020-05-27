@@ -179,8 +179,7 @@ $(document).ready(function() {
 
             // Apply the Y Position to Set the Parallax Effect
             window.requestAnimationFrame(function() {
-                $this.css("transform", `translate3d(0, ${yPos}px, 0)`);
-                $this.css("-webkit-transform", `translate3d(0, ${yPos}px, 0)`);
+               $this.css("top", `${yPos}px`);
             });
         });
     }
