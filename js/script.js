@@ -101,5 +101,27 @@ $(document).ready(function() {
         }, 4000);
 
     });
+    var scrolllink = $('.scroll');
+    //smooth scrolling
+
+    scrolllink.click(function(e) {
+        e.preventDefault();
+        $('body,html').animate({
+            scrollTop: $(this.hash).offset().top
+        }, 1000);
+    });
+
+    // Active Link Switching
+    $(window).scroll(function() {
+        var scrollbarLocation = $(this).scrollTop();
+        scrolllink.each(function() {
+            var sectionOffset = $(this.hash).offset().top - 20;
+            if (sectionOffset <= scrollbarLocation) {
+                $(this).parent().addClass('activo');
+                $(this).parent().siblings().removeClass('activo');
+            }
+        });
+    });
+    //
     AOS.init();
 });
