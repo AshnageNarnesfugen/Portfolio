@@ -322,6 +322,7 @@ ul {
     background: transparent;
     background-size: cover;
     background-repeat: repeat-y;
+    overflow: hidden;
 }
 
 .site-link {
