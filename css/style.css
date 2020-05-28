@@ -424,10 +424,6 @@ ul {
     transition: 0.5s;
 }
 
-.profile:hover {
-    clip-path: circle(25%);
-}
-
 .profile:after {
     content: "ALEXIS";
     width: inherit;
