@@ -334,7 +334,7 @@ ul {
 }
 
 .site-link:hover {
-    var(--bg-primary);
+    color: var(--bg-primary);
     text-decoration: none;
 }
 
@@ -532,6 +532,7 @@ ul {
 .owl-carousel .owl-stage-outer {
     position: relative;
     overflow: visible !important;
+    transform: translate3d(0, 0, 0);
     -webkit-transform: translate3d(0, 0, 0);
 }
 
