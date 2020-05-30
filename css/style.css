@@ -284,6 +284,7 @@ ul {
     flex-direction: row;
     align-items: center;
     background-size: cover;
+    background-position: center;
     margin: 0;
     border-radius: 5px;
 }
