@@ -384,8 +384,8 @@ ul {
 }
 
 #sep1 {
-    padding: 2% 6%;
-    margin: 9%;
+    padding: 2% 2%;
+    margin: 15%;
     background-color: rgba(48, 48, 48, 0.5);
     backdrop-filter: blur(10px);
     z-index: 3;
